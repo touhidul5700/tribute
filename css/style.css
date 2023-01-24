@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:#bc9d9d;
+    color: black;
+    
+}
+h2{
+    color:#610909;
+}
+
+header h1{
+    text-align: center;
+    color:#ffe200;
+    border: 2px solid rgb(201 183 19);
+    background: #29060666;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.sidebar{
+    flex: 1;
+    border: 2px solid rgb(201 183 19);
+    padding: 10px;
+    background: #29060666;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: aliceblue;
+}
+
+.sidebar p a{
+    text-decoration: none;
+    color: #d5e1fd;
+}
+
+.sidebar p a:hover{
+    color:#420505;
+}
+.parent-container{
+    display: flex;
+    margin: 20px;
+    align-items: flex-start;
+    
+}
+
+.content{
+    flex: 4;
+    border: 2px solid rgb(201 183 19);
+    background: #29060666;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    line-height: 30px;
+}
+
+.img{
+
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer{
+    background-color: rgb(3, 3, 3);
+    color: white;
+    margin-top: 200px;
+}
+
+footer div{
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* //////////////////// Mobile //////////////// */
+
+@media ( max-width: 767px){
+
+    .sidebar{
+        display: flex;
+        padding-right: -10px;
+        gap: 10px;
+        font-size: 7px;
+        text-align: center;
+        margin-left: 0px;
+        border: 2px solid rgb(201 183 19);
+        padding: 10px;
+        background: #29060666;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        color: aliceblue;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    .content{
+        flex: 4;
+        border: 2px solid rgb(201 183 19);
+        background: #29060666;
+        padding: 10px;
+        margin-left: 0px;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    .parent-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+        
+  
+    }
+
+
+    .sidebar p a:hover{
+        color:#420505;
+    }
+
+    footer div{
+        text-align: center;
+        padding: 5px;
+    }
+
+
+
+
+
+/*  */
+}
